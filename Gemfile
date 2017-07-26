@@ -13,6 +13,8 @@ gem 'nokogiri', '1.8'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'minitest-rails'
+  gem 'factory_girl_rails'
 end
 
 group :development do
