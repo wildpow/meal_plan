@@ -11,7 +11,7 @@
         <%= meal_fields.hidden_field :id %>
         <%= meal_fields.hidden_field :date %>
         <p><%= meal_fields.object.date.to_s %></p>
-        <div class="form-control">
+        <div class="form-group">
           <%= meal_fields.label :recipe_id %>
           <%= meal_fields.select :recipe_id, current_user.recipe_options %>
         </div>
