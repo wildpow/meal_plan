@@ -1,6 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.margin-vertial-none {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .title-container {
   display: flex;
   justify-content: space-between;
